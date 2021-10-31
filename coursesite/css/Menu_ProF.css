@@ -1,0 +1,164 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: auto;
+}
+
+.modal_content {
+  margin: 100px auto;
+  background-color:  #08555d;
+  font-family: 'Commissioner', sans-serif;
+  color: white; 
+  padding: 20px;
+  width: 300px;
+  z-index: 99999;
+}
+
+input.modal{
+  margin: 100px auto;
+  background-color:  #234f75;
+  font-family: 'Commissioner', sans-serif;
+  color: white; 
+  padding: 20px;
+  width: 500px;
+  z-index: 99999;
+}
+
+#close_modal_window {
+  color: #234f75;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button#close_modal_window {
+  color: #234f75;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#close_modal_window1 {
+  color: #000;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+#close_modal_window2 {
+  color: #000;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+#close_modal_window3 {
+  color: #000;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+#close_modal_window4 {
+  color: #000;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+#close_modal_window5 {
+  color: #000;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+#close_modal_window6 {
+  color: #000;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+table {
+  
+  font-family: 'Commissioner', sans-serif;
+  font-size: 15px;
+  border-spacing: 0;
+  text-align: center;
+  }
+  th {
+  background: #08555d;
+  font-family: 'Commissioner', sans-serif;
+  color: white;
+  text-shadow: 0 1px 1px #2D2020;
+  padding: 10px 20px;
+  }
+  th, td {
+  border-style: solid;
+  font-family: 'Commissioner', sans-serif;
+  border-width: 0 1px 1px 0;
+  border-color: black;
+  }
+
+  td {
+  padding: 10px 20px;
+  font-family: 'Commissioner', sans-serif;;
+  background: white;
+  }
+
+  .form-control {
+    font-family: 'Commissioner', sans-serif;
+  }
+
+  .input.form-control {
+    font-family: 'Commissioner', sans-serif;
+  }
+
+  .form-control {
+    font-family: 'Commissioner', sans-serif;
+  }
+
+  .input.form-control {
+    font-family: 'Commissioner', sans-serif;
+  }
+
+
+  .b1 {
+  
+      font-weight: 700;
+      font-family: 'Commissioner', sans-serif;
+      color: white;
+      text-decoration: none;
+      padding: .8em 1em calc(.8em + 3px);
+      border-radius: 3px;
+      background: rgb(171, 36, 184);
+      box-shadow: 0 -3px #234f75 inset;
+      transition: 0.2s;
+    } 
+    .b1:hover { background: #234f75; }
+    .b1:active {
+      background: #234f75;
+      box-shadow: 0 3px #234f75 inset;
+    }
+
+    .btn {
+      font-weight: 700;
+      font-family: 'Commissioner', sans-serif;
+      color: white;
+      text-decoration: none;
+      padding: .8em 1em calc(.8em + 3px);
+      border-radius: 3px;
+      background: rgb(176, 34, 189);
+      box-shadow: 0 -3px #234f75 inset;
+      transition: 0.2s;
+    } 
+    .btn:hover { background: #234f75; }
+    .btn:active {
+      background: #234f75;
+      box-shadow: 0 3px #234f75 inset;
+    }
+
